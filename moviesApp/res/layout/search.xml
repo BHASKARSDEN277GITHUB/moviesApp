@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:textAlignment="center" >
+
+    <Button
+        android:id="@+id/box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Box Office"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/box"
+        android:src="@drawable/pic" />
+
+    <Button
+        android:id="@+id/theater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/upcoming"
+        android:layout_alignRight="@+id/upcoming"
+        android:layout_below="@+id/upcoming"
+        android:text="Movies in Theaters"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/upcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/box"
+        android:layout_alignRight="@+id/box"
+        android:layout_below="@+id/box"
+        android:text="UpComing Movies "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/opening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/theater"
+        android:layout_alignRight="@+id/theater"
+        android:layout_below="@+id/theater"
+        android:text="Movies Opening this Week"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moviesapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission 
+        android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/about"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light" >
+        <activity
+            android:name="com.example.moviesapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="currents"
+            android:title="Currents"></activity>
+        <activity 
+            android:name="search"
+            android:title="Search"></activity>
+        <activity 
+            android:name="dvd"
+            android:title="DVD's"></activity>
+         <activity 
+            android:name="about"
+            android:title="About"
+            android:theme="@android:style/Theme.Dialog"></activity>
+    
+    <activity 
+            android:name="display"
+            android:title="Results"
+            android:theme="@android:style/Theme.Dialog"></activity>
+    </application>
+
+</manifest>

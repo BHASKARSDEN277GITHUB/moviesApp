@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="/media/CC7E3BDB7E3BBD50/ubuntu_backup_13.jjuly.2013/android/android_myrecipeebook_BHASKAR KALIA/json-simple-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

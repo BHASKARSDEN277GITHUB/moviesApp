@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:textAlignment="center" >
+
+    <Button
+        android:id="@+id/reviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/info"
+        android:layout_alignRight="@+id/info"
+        android:layout_centerVertical="true"
+        android:text="Get Reviews"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reviews"
+        android:layout_alignRight="@+id/reviews"
+        android:layout_below="@+id/reviews"
+        android:text="Get Cast"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/simillar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cast"
+        android:layout_alignRight="@+id/cast"
+        android:layout_below="@+id/cast"
+        android:text="Get Simillar movies"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reviews"
+        android:layout_centerHorizontal="true"
+        android:text="Get Info"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter Title of Movie" />
+
+</RelativeLayout>

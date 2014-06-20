@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:textAlignment="center" >
+
+    <Button
+        android:id="@+id/current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Current Released DVD&apos;s"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/newr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/current"
+        android:layout_alignRight="@+id/current"
+        android:layout_below="@+id/current"
+        android:layout_marginTop="14dp"
+        android:text="DVD&apos;s Getting Released"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/upcomingr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/newr"
+        android:layout_alignRight="@+id/newr"
+        android:layout_below="@+id/newr"
+        android:layout_marginTop="15dp"
+        android:text="Upcoming Releases  (DVD&apos;s)"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/current"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/dvd" />
+
+</RelativeLayout>
